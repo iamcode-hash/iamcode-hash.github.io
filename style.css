@@ -1,0 +1,59 @@
+
+body{
+    background-color:black; 
+    
+}
+
+
+h1{color: white;
+    text-align: center;
+}
+
+p {color: white;
+}
+
+a {color: white;
+
+}
+
+
+ a:visited {color: grey;
+
+ }
+
+
+ a:hover{color:rgb(20, 158, 20)
+
+ }
+
+
+.description{
+    backround:black;
+    border: 2px solid white; 
+    padding: 10px;
+    margin: 10px;}
+
+
+    
+      
+
+       * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      site-logo.{
+        vertical-align: middle;
+      }
